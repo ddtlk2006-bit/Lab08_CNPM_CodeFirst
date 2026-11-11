@@ -1,0 +1,45 @@
+=================================================================================
+HƯỚNG DẪN NỘP BÀI LAB 08 - ELEARNING
+FIT - ĐẠI HỌC TÔN ĐỨC THẮNG (TDTU)
+=================================================================================
+
+Theo yêu cầu tại trang 24 của đề Lab 8, bạn cần nộp 2 FILE lên eLearning:
+1. StudentID_StudentName.zip  (ví dụ: 52100888_NguyenVanA.zip)
+2. StudentID_StudentName.pdf  (ví dụ: 52100888_NguyenVanA.pdf)
+
+Trong thư mục 'cannop' này đã có sẵn các file cần thiết:
+---------------------------------------------------------------------------------
+1. File 'StudentID_StudentName.zip':
+   - Đã được nén sẵn sạch sẽ toàn bộ project ASP.NET Core:
+     + Exercise1_RazorPages (SchoolAppCoreRazor)
+     + Exercise2_MVC (SchoolAppCoreMVC)
+     + SchoolApp.sln
+     + SchoolDB.sql (Script CSDL)
+     + README.md
+   => BẠN CHỈ CẦN: Đổi tên file 'StudentID_StudentName.zip' thành:
+      [MSSV]_[HoVaTen].zip (ví dụ: 52100888_NguyenVanA.zip)
+
+---------------------------------------------------------------------------------
+2. File 'BAOCAO_LAB08_ASP_NET_CORE.docx':
+   - Đây là file Word chứa toàn bộ nội dung báo cáo hoàn chỉnh (Introduction,
+     Exercises, So sánh Razor Pages vs MVC theo trang 20-22, Conclusion, Phụ lục).
+   - Đã định dạng chuẩn các Heading 1, Heading 2, Bảng so sánh và Khối code.
+   => BẠN CẦN LÀM:
+      Bước 1: Mở file 'BAOCAO_LAB08_ASP_NET_CORE.docx' bằng Microsoft Word.
+      Bước 2: Điền MSSV, Họ tên và dán link GitHub repo của bạn ở phần Phụ lục.
+      Bước 3: Chụp ảnh màn hình các trang web đang chạy (F5) chèn vào các vị trí hình ảnh.
+      Bước 4: Xuất ra file PDF CÓ BOOKMARKS:
+              - Vào File -> Save As (hoặc Export -> Create PDF/XPS).
+              - Chọn loại file: PDF (*.pdf).
+              - Đổi tên file thành: [MSSV]_[HoVaTen].pdf (ví dụ: 52100888_NguyenVanA.pdf).
+              - Bấm vào nút 'Options...' (như hình hướng dẫn ở trang 24 của đề).
+              - Đánh dấu tích vào ô:
+                [X] Create bookmarks using:
+                    (o) Headings
+              - Bấm OK, sau đó bấm Save.
+
+---------------------------------------------------------------------------------
+3. File 'SchoolDB.sql':
+   - File script SQL tạo CSDL SchoolDB độc lập nếu cần kiểm tra hoặc chạy thử trong SSMS.
+=================================================================================
+
